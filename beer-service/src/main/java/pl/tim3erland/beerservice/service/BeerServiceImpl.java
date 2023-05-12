@@ -10,7 +10,7 @@ import pl.tim3erland.beerservice.web.model.BeerDto;
 
 import java.util.UUID;
 
-@Service
+@Service("beerServiceImpl")
 @RequiredArgsConstructor
 public class BeerServiceImpl implements BeerService {
     private final BeerRepository beerRepository;
